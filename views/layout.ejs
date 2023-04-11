@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brandeis University</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <div id="mid1">
+        <img src="/images/BrandeisLogo.png" alt="image" />
+        <div id="mid2">
+          <h1>Brandeis University</h1>
+          <div>
+            <h2>
+              &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;Students & Alumni
+              Association
+            </h2>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <br />
+    <div>
+      <nav>
+        <a href="users">Users</a>
+        <a href="jobs">Jobs</a>
+        <a href="events">Events</a>
+      </nav>
+    </div>
+    <div class="flashes">
+      <% if (flashMessages) { %> <% if (flashMessages.success) { %>
+      <div class="flash success"><%= flashMessages.success %></div>
+      <%} else if (flashMessages.error){ %>
+      <div class="flash error"><%= flashMessages.error %></div>
+      <%} %> <%} %>
+    </div>
+    <%- body%>
+    <footer>
+      <script
+        src="https://kit.fontawesome.com/e702565e7b.js"
+        crossorigin="anonymous"
+      ></script>
+      <p>&copy2023 Brandeis University</p>
+      <div id="right">
+        <p>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-youtube"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

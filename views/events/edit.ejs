@@ -1,0 +1,95 @@
+<div class="data-form">
+  <form method="POST" action="<%=`/events/${event._id}/update?_method=PUT`%>">
+    <h2>Edit event:</h2>
+    <label for="inputTitle">Title</label>
+    <input
+      type="text"
+      name="title"
+      id="inputTitle"
+      value="<%= event.title %>"
+      placeholder="Title"
+      required
+    />
+    <br />
+    <label for="inputDescription">Description</label>
+    <input
+      type="text"
+      name="description"
+      id="inputDescription"
+      value="<%= event.description %>"
+      placeholder="Description"
+      required
+    />
+    <br />
+    <label for="inputLocation">Location</label>
+    <input
+      type="text"
+      name="location"
+      id="inputLocation"
+      value="<%= event.location %>"
+      placeholder="Location"
+      required
+    />
+    <br />
+    <label for="inputStartDate">Start Date</label>
+    <input
+      type="text"
+      name="startDate"
+      id="inputStartDate"
+      value="<%= event.startDate %>"
+      placeholder="Start Date"
+      required
+    />
+    <br />
+    <label for="inputEndDate">End Date</label>
+    <input
+      type="text"
+      name="endDate"
+      id="inputEndDate"
+      value="<%= event.endDate %>"
+      placeholder="End Date"
+      required
+    />
+    <br />
+    <label for="inputIsOnline">Is Online</label>
+    <input
+      type="text"
+      name="isOnline"
+      id="inputIsOnline"
+      value="<%= event.isOnline %>"
+      placeholder="Is Online"
+    />
+    <br />
+    <label for="inputRegistrationLink">Registration Link</label>
+    <input
+      type="text"
+      name="registrationLink"
+      id="inputRegistrationLink"
+      value="<%= event.registrationLink %>"
+      placeholder="Registration Link"
+    />
+    <br />
+    <label for="inputOrganizer">Organizer</label>
+    <input
+      type="text"
+      name="organizer"
+      id="inputOrganizer"
+      value="<%= event.organizer %>"
+      placeholder="Organizer"
+      required
+    />
+    <br />
+    <label for="inputAttendees">Attendees</label>
+    <input
+      type="text"
+      name="attendees"
+      id="inputAttendees"
+      value="<%= event.attendees %>"
+      placeholder="Attendees"
+    />
+
+    <br />
+
+    <button type="submit">Update</button>
+  </form>
+</div>

@@ -1,0 +1,143 @@
+/* Style the body color */
+body {
+  color: black;
+}
+
+/* Style the header with background color */
+header {
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+}
+
+/* Style the h1 in header */
+header h1 {
+  float: left;
+  text-align: left;
+  padding-left: 10px;
+  display: flex;
+}
+
+/* Style the image */
+img {
+  float: left;
+  text-align: left;
+  width: 120px;
+}
+
+/* Style the id for div */
+#mid1 {
+  float: left;
+  width: 100%;
+  padding: 25px;
+}
+
+/* Style the id for div*/
+#mid2 {
+  float: left;
+  max-width: 80%;
+}
+
+/* Style the id for nav */
+#left {
+  margin-left: 50px;
+}
+
+/* Style the navigation */
+nav {
+  overflow: hidden;
+  background-color: rgba(13, 43, 163, 0.978);
+  opacity: 0.8;
+  padding: 6px;
+  margin-bottom: 50px;
+  float: left;
+  display: flex;
+  width: 100%;
+}
+
+/* Style the navigation bar */
+nav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgb(229, 163, 119);
+}
+
+/* Color change to red when move the  cursor above the elements*/
+nav a:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Style the section */
+section {
+  float: center;
+  padding-left: 10%;
+  padding-right: 45%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+}
+
+/* Style the article*/
+section article {
+  width: 100%;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(42, 41, 41);
+  text-align: left;
+  clear: both;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  color: white;
+  opacity: 0.8;
+  padding: 20px;
+  padding-left: 5%;
+}
+
+/* Style the i for icon */
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Style the h1 in article*/
+h1 {
+  display: inline;
+  color: rgba(13, 43, 163, 0.978);
+  font-weight: 100;
+  font-size: 30px;
+}
+
+/* Style the h2 in article*/
+h2 {
+  display: inline;
+  color: rgba(13, 43, 163, 0.978);
+  font-weight: 100;
+  font-size: 18px;
+}
+
+/* Style the p*/
+p {
+  display: inline;
+}
+
+/* Style the icon in footer */
+#right {
+  float: right;
+  padding-right: 10%;
+}
